@@ -83,3 +83,25 @@ console.log(Object.values(tinder));
 console.log(Object.entries(tinder));
 
 console.log(tinder.hasOwnProperty('wessi'));
+const course={
+    coursename:"WebDEV",
+    price:"99999",
+    instructer:"Hitesh",
+}
+const {instructer}=course
+console.log(instructer);
+
+
+// const navbar=({company})=>{
+
+// }
+// navbar(company="soiumo")
+//destructrering 
+//--------------------JSON------------------------
+// {
+//     name : "soumo",
+//     Cname : "JS in us",
+// price : "f5rree"
+// }
+//API can also get As array
+//=========================To Study Api REsponse use JSON Formatter=================
