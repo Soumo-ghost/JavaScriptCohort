@@ -28,3 +28,28 @@ function login(username="sam"){//it now never is empty becuse it has a value if 
 return `${username} jus tloged in`
 }
 console.log(login("Soumo"));//if no value is passed user is undifined
+
+//####---------------------------###
+function calculateCartPrice(...n1){// thi sis rest operator mind it rest and spered
+return n1
+}
+console.log(calculateCartPrice(200, 400, 600));
+ const user={
+    username:"soumosa",
+    price:178
+ }
+ function handel(any) {
+    console.log(`Username is${any.username} and price si ${any.price}`);
+    
+ }
+handel({
+    username:"Sou",
+    price:189
+})
+
+const myarr=[200,399,789];
+function returnsecond(getArray) {
+return getArray[1]    
+}
+// console.log(returnsecond(myarr));
+console.log(returnsecond([100,200,300,500,578]));
