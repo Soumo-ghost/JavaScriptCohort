@@ -11,8 +11,19 @@
 
 </body>
 <script>
-    setTimeout(function(){
-console.log("hello");
-    },2000)
+    const say=function(){
+        console.log("soumo");  
+    }
+    const change=function(){
+        document.querySelector('h1').innerHTML="Best js"
+    }
+    setTimeout(say,2000);
+   const changeme= setTimeout(change,1000);
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeme)
+        console.log("stop"); 
+    })
+    //hadeller is a function which dose not has a time
+
 </script>
 </html>
