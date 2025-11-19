@@ -1,4 +1,3 @@
 # Frontend
-My Repo for JS Frontend
-Change in Redme
+My Repo for JS Cohort 
 
